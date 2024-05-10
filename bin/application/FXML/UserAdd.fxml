@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Contoller">
+   <top>
+      <AnchorPane prefHeight="67.0" prefWidth="390.0" style="-fx-background-color: #1cb9d6;" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="95.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Bookman Old Style; -fx-font-size: 20;" text="Enter User Information">
+               <font>
+                  <Font name="Bookman Old Style" size="12.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="namefield" layoutX="29.0" layoutY="33.0" prefHeight="33.0" prefWidth="332.0" promptText="Full Name" styleClass="ttxt" />
+            <TextField fx:id="emailfield" layoutX="29.0" layoutY="84.0" prefHeight="33.0" prefWidth="332.0" promptText="Email" styleClass="ttxt" />
+            <TextField fx:id="unamefield" layoutX="29.0" layoutY="138.0" prefHeight="33.0" prefWidth="332.0" promptText="User Name" styleClass="ttxt" />
+            <TextField fx:id="passfield" layoutX="29.0" layoutY="192.0" prefHeight="33.0" prefWidth="332.0" promptText="Password" styleClass="ttxt" />
+            <TextField fx:id="utypefield" layoutX="29.0" layoutY="243.0" prefHeight="33.0" prefWidth="332.0" promptText="User Type" styleClass="ttxt" />
+            <Button fx:id="savebtn" layoutX="29.0" layoutY="295.0" mnemonicParsing="false" onAction="#InsertToDatabase" prefHeight="44.0" prefWidth="148.0" text="Save" />
+            <Button fx:id="savebtn" layoutX="213.0" layoutY="295.0" mnemonicParsing="false" onAction="#Close" prefHeight="44.0" prefWidth="148.0" text="Close" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

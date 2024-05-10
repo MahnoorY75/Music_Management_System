@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="600.0" minWidth="750.0" prefHeight="549.0" prefWidth="730.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Contoller">
+
+   <left>
+      <AnchorPane fx:id="leftside" prefHeight="549.0" prefWidth="347.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="87.0" layoutY="562.0" text="CopyRight [c]. All Right Reserved" textFill="WHITE" />
+         </children></AnchorPane>
+   </left>
+   <right>
+      <AnchorPane fx:id="registerspace" prefHeight="549.0" prefWidth="416.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="welcome" layoutX="65.0" layoutY="43.0" prefHeight="52.0" prefWidth="267.0" style="-fx-font-family: Roboto; -fx-text-fill: #ebf9fa;" text="Welcome to AuraMusica">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="91.0" layoutY="81.0" style="-fx-font-size: 16px; -fx-text-fill: #ebf9fa;" text="Register your Account now">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="148.0" layoutY="153.0" style="-fx-font-size: 18px; -fx-text-fill: #ebf9fa;" text="Full Name">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="170.0" layoutY="226.0" style="-fx-font-size: 18px; -fx-text-fill: #ebf9fa;" text="Email">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="157.0" layoutY="294.0" style="-fx-font-size: 18px; -fx-text-fill: #ebf9fa;" text="UserName">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="164.0" layoutY="359.0" style="-fx-font-size: 18px; -fx-text-fill: #ebf9fa;" text="Password">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textfield1" layoutX="48.0" layoutY="187.0" prefHeight="31.0" prefWidth="302.0" />
+            <TextField fx:id="textfield2" layoutX="48.0" layoutY="253.0" prefHeight="31.0" prefWidth="302.0" />
+            <TextField fx:id="textfield3" layoutX="47.0" layoutY="321.0" prefHeight="31.0" prefWidth="302.0" />
+            <TextField fx:id="textfield4" layoutX="47.0" layoutY="386.0" prefHeight="31.0" prefWidth="302.0" />
+            <Hyperlink layoutX="240.0" layoutY="108.0" onAction="#OpenLoginWindow2" text="Login" underline="true" />
+            <Label layoutX="105.0" layoutY="111.0" style="-fx-text-fill: #ebf9fa;" text="Already have an Account?" />
+            <AnchorPane fx:id="errorside" layoutX="2.0" prefHeight="35.0" prefWidth="403.0">
+               <children>
+                  <Label fx:id="errormsg" layoutX="14.0" layoutY="9.0" />
+               </children>
+            </AnchorPane>
+            <ComboBox fx:id="combo" layoutX="81.0" layoutY="435.0" prefHeight="34.0" prefWidth="246.0" promptText="User Type" />
+            <Hyperlink layoutX="86.0" layoutY="510.0" onAction="#OpenLoginWindow" style="-fx-text-fill: #f2f7f7; -fx-border-color: #ebf9fa; -fx-border-width: 2px;" styleClass="primarybtn" text="Submit">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink layoutX="232.0" layoutY="510.0" onAction="#OpenLoginWindow" style="-fx-text-fill: #f2f7f7; -fx-border-color: #ebf9fa; -fx-border-width: 2px;" styleClass="primarybtn" text="Exit">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Hyperlink>
+         </children></AnchorPane>
+   </right>
+</BorderPane>

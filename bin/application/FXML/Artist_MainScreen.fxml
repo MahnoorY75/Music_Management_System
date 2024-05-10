@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="1318.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Artist_Controller">
+   <right>
+      <AnchorPane fx:id="leftpane" prefHeight="675.0" prefWidth="613.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="47.0" layoutY="26.0" style="-fx-text-fill: #8a1d1d; -fx-font-family: &quot;Bodoni MT Black&quot;;" text="AuraMusica" textFill="#2c0e0e">
+               <font>
+                  <Font name="Bodoni MT Black" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </right>
+   <left>
+      <AnchorPane prefHeight="675.0" prefWidth="755.0" style="-fx-background-color: #d9d9d9;" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane layoutX="103.0" layoutY="111.0" prefHeight="492.0" prefWidth="550.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="308.0" minWidth="10.0" prefWidth="279.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="364.0" minWidth="10.0" prefWidth="293.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="266.0" minHeight="10.0" prefHeight="249.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="247.0" minHeight="10.0" prefHeight="247.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #262121;">
+                     <children>
+                        <ImageView fx:id="img1" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <VBox.margin>
+                              <Insets top="20.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label fx:id="title1" style="-fx-font-size: 18; -fx-text-fill: white;" text="Label">
+                           <padding>
+                              <Insets top="26.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #260e0d;" GridPane.columnIndex="1">
+                     <children>
+                        <ImageView fx:id="img2" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <VBox.margin>
+                              <Insets top="20.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label fx:id="title2" style="-fx-font-size: 18; -fx-text-fill: white;" text="Label">
+                           <padding>
+                              <Insets top="26.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #c2382f;" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fx:id="img3" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <VBox.margin>
+                              <Insets top="20.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label fx:id="title3" style="-fx-font-size: 18; -fx-text-fill: white;" text="Label">
+                           <padding>
+                              <Insets top="26.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #0a0201;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fx:id="img4" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <VBox.margin>
+                              <Insets top="20.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label fx:id="title4" style="-fx-font-size: 18; -fx-text-fill: white;" text="Label">
+                           <padding>
+                              <Insets top="26.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </GridPane>
+            <Label layoutX="103.0" layoutY="14.0" style="-fx-font-size: 25; -fx-text-fill: #320f0f;" text="Hi, " textFill="#320f0f">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="270.0" layoutY="58.0" style="-fx-font-family: &quot;Britannic Bold&quot;; -fx-font-size: 36;" text="Your Projects">
+               <font>
+                  <Font name="Britannic Bold" size="36.0" />
+               </font>
+            </Label>
+            <Hyperlink fx:id="link" layoutX="327.0" layoutY="611.0" style="-fx-font-size: 15;" text="Load more -&gt;" />
+            <Label fx:id="labelname" layoutX="134.0" layoutY="14.0" style="-fx-font-size: 25; -fx-text-fill: #320f0f;" text="Hi, " textFill="#320f0f">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

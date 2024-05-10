@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Kanit:wght@300&family=Marhey:wght@300&family=Pacifico&display=swap');
+
+
+
+
+#leftside {
+    -fx-background-image: url("BackGround_Images/backgroundimage.jpg");
+    -fx-background-repeat: stretch; /* Adjust if needed */
+    -fx-background-size: cover;     /* Adjust if needed */
+}
+#leftpane
+{
+	  -fx-background-image: url("BackGround_Images/art.jpg");
+    -fx-background-repeat: stretch; /* Adjust if needed */
+    -fx-background-size: cover;    
+}
+
+#link
+{
+	-fx-border-color: #d9d9d9;
+	
+}
+#addmusicback
+{
+	   -fx-background-image: url("BackGround_Images/addmusic.jpg");
+    -fx-background-repeat: stretch; /* Adjust if needed */
+    -fx-background-size: cover;     /* Adjust if needed */
+}
+#registerspace
+{
+	    -fx-background-image: url("BackGround_Images/backimage2.png");
+    -fx-background-repeat: stretch; /* Adjust if needed */
+    -fx-background-size: cover;     /* Adjust if needed */
+}
+
+#adminback
+{
+	   -fx-background-image: url("BackGround_Images/adminback.png");
+    -fx-background-repeat: stretch; /* Adjust if needed */
+    -fx-background-size: cover;   
+}
+#paymentscreen
+{
+	-fx-background-image: url("BackGround_Images/payment.png");
+    -fx-background-repeat: stretch; /* Adjust if needed */
+    -fx-background-size: cover;
+}
+
+#buyscreen
+{
+	    -fx-background-image: url("BackGround_Images/backgrd2.png");
+    -fx-background-repeat: stretch; /* Adjust if needed */
+    -fx-background-size: cover;     /* Adjust if needed */
+}
+
+#welcome
+{
+	-fx-font-size: 24px;
+	-fx-font-family: "Roboto";
+}
+
+#top
+{
+	 -fx-background-image: url("BackGround_Images/image2.jpg");
+    -fx-background-repeat: stretch; /* Adjust if needed */
+    -fx-background-size: cover; 
+}
+
+
+
+#textfield1 , #textfield2, #textfield3, #textfield4, #textfield5, #textfield6, #textfield7{
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: #d9d9d9;
+    -fx-background-radius: 50px;
+}
+
+.ttxt
+{
+	 -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: #d7f2f7;
+    -fx-border-color: #1cb9d6;
+	
+}
+.ttx
+{
+	 -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: #d1d1d1;
+    -fx-border-color:  #161d1f;
+	
+}
+
+#savebtn
+{
+	 -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+	-fx-background-color: #1cb9d6;
+	-fx-font-size: 16px;
+}
+#savebtn:hover
+{
+	-fx-background-color: #095361;
+	-fx-text-fill: white;
+}
+#savebtn2
+{
+	 -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+	-fx-background-color: #161d1f;
+	-fx-font-size: 16px;
+	-fx-text-fill: white;
+}
+#savebtn2:hover
+{
+	-fx-background-color: #030708;
+	-fx-text-fill: white;
+}
+.textfield
+{
+	    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: #e8e6e6;
+    -fx-border-radius: 15px;
+}
+
+#combo
+{
+	    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: #d9d9d9;
+    -fx-background-radius: 5px;
+}
+
+#textfield1:focused {
+    
+}
+
+#front1 {
+    -fx-background-image: url("BackGround_Images/front1.jpg");
+    -fx-background-repeat: stretch; /* Adjust if needed */
+    -fx-background-size: cover;     /* Adjust if needed */    
+}
+
+#urdutext
+{
+	-fx-font-family: 'Marhey', sans-serif;
+	-fx-text-fill: #FAF9F6;
+}
+
+
+.text
+{
+	-fx-font-family: 'Archivo', sans-serif;
+	-fx-text-fill: #FAF9F6;
+}
+
+#square
+{
+	-fx-border-width: 10px;
+	-fx-border-color: #2b95ab;
+}
+
+.btn
+{
+	-fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-border-color: #2b95ab;
+    -fx-border-width: 2px;
+    -fx-background-color: none;
+    	-fx-text-fill: #FAF9F6;
+    	-fx-border-radius: 50px;
+    	-fx-font-size: 14px;
+    		-fx-underline: false;
+}
+
+.btn:hover
+{
+	-fx-background-color: #2b95ab;
+		-fx-border-radius: 50px;
+		-fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-radius: 50px;
+    	-fx-underline: false;
+}
+
+.adminbtn
+{
+	-fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: transparent;
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+	
+}
+
+.adminbtn:hover
+{
+	-fx-background-color: #054252;
+}
+
+.buttn
+{
+	-fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: #c2c0c0;
+    -fx-border-width: 1px;
+	
+}
+.buttn:hover
+{
+	-fx-background-color: black;
+}
+
+.buttn:focused
+{
+	 -fx-background-color: black;
+}
+.navbar
+{
+	-fx-font-family: 'Archivo', sans-serif;
+	-fx-text-fill: #FAF9F6;
+	-fx-font-size: 18px;
+	-fx-border-style: none;
+	-fx-border-width: 0px;
+	-fx-underline: false;
+}
+
+.navbar:hover
+{
+	 -fx-underline: false;
+    -fx-font-size: 18px; 
+    -fx-text-fill: #2b95ab;
+    -fx-underline: false;
+}
+
+
+#nav
+{
+	-fx-background-color: black;
+}
+
+
+
+.primarybtn
+{
+	-fx-padding: 10px 31px;
+	-fx-font-size: 17px;
+	-fx-border-radius: 50px;
+}
+
+
+.primarybtn:hover
+{
+	-fx-background-color:  #2b95ab;
+	-fx-border-color:  #2b95ab;
+	-fx-text-fill:  #f2f7f7;
+	 -fx-underline: false;-fx-padding: 10px 31px;
+	-fx-font-size: 17px;
+	-fx-border-radius: 50px;
+	-fx-background-radius: 50px;
+}
+
+.secondbtn
+{
+	-fx-font-size: 17px;
+	-fx-text-fill:  white;
+	-fx-background-color:  #585858;
+	-fx-background-radius: 6px;
+}
+.secondbtn:hover
+{
+	-fx-background-color: black;
+}
+
+
+#searchicon
+{
+	-fx-fill: white;
+}
+
+
+#combo2
+{
+	
+	    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+
+#searchbar
+{
+	 -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+#heart
+{
+	-fx-fill: #fa2a2a;
+}
+
+#add
+
+{
+	-fx-font-size: 13px;
+}
+#img1
+{
+	    -fx-background-image: url("BackGround_Images/backimage2.png");
+    -fx-background-repeat: stretch; /* Adjust if needed */
+    -fx-background-size: cover;     /* Adjust if needed */
+	
+}
+
+
+#musictitle
+{
+	-fx-font-size: 20px;
+}
+
+#musicid
+{
+	-fx-font-size: 16px;
+}
+
+#musicgenre
+{
+	-fx-font-size: 15px;
+}
+
+#scroll
+{
+	-fx-background-color: black;
+}
+
+#musicGrid
+{
+-fx-background-color: black;
+}
+
+#vbox
+{
+	-fx-border-radius: 20px;
+}
+
+#add
+{
+	-fx-background-color:  #2b95ab;
+	-fx-font-size: 17px;
+}
+
+#add:hover
+{
+	-fx-background-color: #0a2c33;
+}
+
+#play
+{
+	-fx-background-color:  #2b95ab;
+	-fx-font-size: 17px;
+	-fx-text-fill: white;
+}
+#play:hover
+{
+	-fx-background-color: #0a2c33;
+}
+
+#details
+{
+	-fx-font-size: 20px;
+}
+
+#mybox
+{
+	-fx-border-color: #2b95ab;
+	-fx-border-width: 5px;
+	-fx-border-radius: 20px;
+	-fx-background-color: #d2eff7;
+}
+#paybtn
+{
+	-fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: #2b95ab;
+    -fx-font-size: 17px;
+    -fx-text-fill: white;
+    
+}
+
+#paybtn:hover
+{
+	-fx-background-color: #0a2c33;
+}
+
+#combo2
+{
+	-fx-background-color:  #abdfed;
+	-fx-border-color:  #2b95ab;
+	-fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-border-width: 2px;
+}
+
+#moibtn
+{
+	-fx-background-color: #2b95ab;
+	-fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+
+#mark
+{
+	-fx-fill: #e82e2e;
+}
+#moibtn:hover
+{
+	
+-fx-background-color: #0a2c33;
+}
+
+/* Define styles for the icon-trash class */
+.edit-button {
+ -fx-background-color: #51b6ed;   
+}
+
+.edit-button:hover
+{
+	 -fx-background-color: #083954;   
+	 -fx-text-fill: white;
+}
+/* Define styles for the icon-pencil class */
+.delete-button {
+   -fx-background-color: #d43131;
+}
+
+.delete-button:hover
+{
+	-fx-background-color: #730606;
+		 -fx-text-fill: white;
+}
+.bigbtn
+{
+	-fx-background-color:  #b4ecfa;
+	-fx-border-color:  #4fd6f7;
+}
+.bigbtn:hover
+{
+	-fx-background-color: #18a8cc;
+}

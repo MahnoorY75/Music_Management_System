@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="126.0" prefWidth="901.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ArtistController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #292929;">
+         <children>
+            <ImageView fx:id="artistpic" fitHeight="91.0" fitWidth="99.0" layoutX="118.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="nameartist" layoutX="305.0" layoutY="48.0" style="-fx-text-fill: white; -fx-font-size: 20;" text="Label">
+               <graphic>
+                  <Label style="-fx-text-fill: white; -fx-font-size: 20;" text="Artist Name:" />
+               </graphic>
+            </Label>
+            <Label fx:id="idartist" layoutX="691.0" layoutY="48.0" style="-fx-text-fill: white; -fx-font-size: 20;" text="Label">
+               <graphic>
+                  <Label style="-fx-text-fill: white; -fx-font-size: 20;" text="Artist ID:" />
+               </graphic>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

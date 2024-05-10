@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="vbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="323.0" prefWidth="276.0" style="-fx-background-color: #0f0f0f; -fx-border-radius: 40px;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MusicController">
+   <children>
+      <AnchorPane prefHeight="162.0" prefWidth="244.0">
+         <children>
+            <ImageView fx:id="musicimg" fitHeight="137.0" fitWidth="144.0" layoutX="68.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" />
+            <FontAwesomeIcon fx:id="heart" iconName="HEART" layoutX="244.0" layoutY="29.0" size="1.5em" />
+         </children>
+      </AnchorPane>
+      <VBox alignment="CENTER" prefHeight="85.0" prefWidth="276.0">
+         <children>
+            <Label fx:id="musictitle" text="Title of the Music" textAlignment="CENTER" textFill="#e8e5e5">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="musicid" text="Music ID" textAlignment="CENTER" textFill="#e8e5e5">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="musicgenre" text="Genre" textAlignment="CENTER" textFill="#e8e5e5">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <AnchorPane prefHeight="77.0" prefWidth="276.0">
+         <children>
+            <Button fx:id="add" layoutX="208.0" layoutY="20.0" mnemonicParsing="false" onAction="#MusicBuy" prefHeight="38.0" prefWidth="54.0" text="Buy" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="play" layoutX="14.0" layoutY="20.0" mnemonicParsing="false" onAction="#PlayMusic" prefHeight="38.0" prefWidth="66.0" text="Play" />
+            <ImageView fx:id="note" fitHeight="27.0" fitWidth="26.0" layoutX="80.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../Music.JPG" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

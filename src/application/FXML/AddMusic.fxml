@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="606.0" prefWidth="1038.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Admin">
+   <top>
+      <AnchorPane fx:id="addmusicback" prefHeight="381.0" prefWidth="1020.0" BorderPane.alignment="CENTER" />
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="286.0" prefWidth="1020.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane layoutX="361.0" layoutY="33.0" onMouseClicked="#PlusMusic" prefHeight="122.0" prefWidth="124.0" styleClass="bigbtn">
+               <children>
+                  <FontAwesomeIcon fill="#0c6b1c" iconName="PLUS" layoutX="38.0" layoutY="82.0" size="5EM" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="553.0" layoutY="33.0" onMouseClicked="#DeleteMusic" prefHeight="122.0" prefWidth="124.0" styleClass="bigbtn">
+               <children>
+                  <FontAwesomeIcon fill="#a10606" iconName="TRASH" layoutX="38.0" layoutY="82.0" size="5EM" />
+               </children>
+            </AnchorPane>
+            <Text layoutX="378.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Music">
+               <font>
+                  <Font name="Britannic Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="560.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete Music">
+               <font>
+                  <Font name="Britannic Bold" size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>
